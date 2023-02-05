@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="audio.css">
+</head>
+
+<body>
+    <div id="main">
+
+    </div>
+    <div class="player">
+        <div class="row1" id="row1"></div>
+        <div id="songTitle">Title</div>
+        <div class="row2">
+            <div class="play">
+                <img src="imagesbtn/previous.png" id='pre' onclick="pre()" alt="">
+                <img src="imagesbtn/play-button-arrowhead.png" id='play' onclick="playOrPauseSong()" alt="">
+                <img src="imagesbtn/next.png" id='next' onclick="next()" alt="">
+            </div>
+            <div class="seek-bar">
+                <div class="handle">
+                    <div id="fill">
+
+                    </div>
+                </div>
+            </div>
+            <div class="mute">
+                <div id="currentTime">00 : 00 / 00 : 00</div>
+                <div class="muteButtons">
+                    <img src="imagesbtn/volume-mute.png" id='decrease' onclick="decrease()" alt="">
+                    <img src="imagesbtn/volume.png" id='mute' onclick="muted()" alt="">
+                    <img src="imagesbtn/increase-volume.png" id='increase' onclick="increase()" alt="">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="audio.js"></script>
+
+</body>
+
+</html>
