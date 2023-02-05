@@ -12,10 +12,7 @@
 // console.log(person.Inwork);
 // console.log(person.frends[0]);
 
-// for(let i = 0 ; i < person.frends.length; i++){
-//     console.log(person.frends[i]);
 
-// }
 
 var data  = {
     title: [
